@@ -1,0 +1,36 @@
+[ 2016-12-03T03:10:18+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+ERR: 模板不存在:./Application/Home/View//blog/index.php/SITE_URL/Application/Admin/index.html.html
+
+[ 2016-12-03T03:10:37+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+ERR: 模板不存在:./Application/Home/View//blog/index.php/Application/Admin/index.html.html
+
+[ 2016-12-03T03:10:48+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+ERR: 模板不存在:./Application/Home/View//blog/index.php/blog/Application/Admin/index.html.html
+
+[ 2016-12-03T03:10:58+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+ERR: 模板不存在:./Application/Home/View/http///localhost/8888/blog/Application/Admin/index.html
+

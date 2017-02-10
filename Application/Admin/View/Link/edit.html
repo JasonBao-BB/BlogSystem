@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BackEnd Management</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/main.css"/>
+    <script type="text/javascript" src="__PUBLIC__/js/libs/modernizr.min.js"></script>
+</head>
+<body>
+<include file="Public/header"/>
+<div class="container clearfix">
+   <include file="Public/left" />
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="/jscss/admin/design/">Home Page</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/jscss/admin/design/">Link Management</a><span class="crumb-step">&gt;</span><span>Edit Link</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="__CONTROLLER__/edit" method="post" id="myform" name="myform">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                            <tr>
+                                <th><i class="require-red">*</i>Link Name：</th>
+                                <td>
+                                    <input type="hidden" name="id" value="{$links.id}">
+                                     <input class="common-text required" id="title" name="title" size="50" value="{$links.title}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>Link Address：</th>
+                                <td><input class="common-text required" id="url" name="url" size="50" value="{$links.url}" type="text"></td>
+                            </tr>
+                            
+                            <tr>
+                                <th><i class="require-red">*</i>Link Description：</th>
+                                <td><input class="common-text required" id="desc" name="desc" size="50" value="{$links.desc}" type="text"></td>
+                            </tr>
+                            
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" value="SUBMIT" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="BACK" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>
